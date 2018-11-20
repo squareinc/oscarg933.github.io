@@ -1,0 +1,21 @@
+From 78542df7754161253ff19e072dd563f8a3f2f0ce Mon Sep 17 00:00:00 2001
+From: Oscar Gomez <42280574+oscarg933@users.noreply.github.com>
+Date: Mon, 19 Nov 2018 17:37:16 -0700
+Subject: [PATCH] Update issue templates
+
+.patch
+.diff
+---
+ .github/ISSUE_TEMPLATE/custom.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/.github/ISSUE_TEMPLATE/custom.md b/.github/ISSUE_TEMPLATE/custom.md
+index 3651933..894215b 100644
+--- a/.github/ISSUE_TEMPLATE/custom.md
++++ b/.github/ISSUE_TEMPLATE/custom.md
+@@ -4,4 +4,4 @@ about: Describe this issue template's purpose here.
+ 
+ ---
+ 
+-oscarg933.github.io/.github/ISSUE_TEMPLATE/bug_report.md 
++oscarg933.github.io/.github/ISSUE_TEMPLATE/bug_report.md
