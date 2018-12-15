@@ -1,1 +1,87 @@
 
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 2,644 oscarg933/home-assistant.io
+forked from home-assistant/home-assistant.io
+ Code  Pull requests 0  Projects 0  Insights  Settings
+ blue_book Home Assistant User documentation https://www.home-assistant.io
+ 13,545 commits
+ 21 branches
+ 1 release
+ 1,876 contributors
+ View license
+ Pull request   Compare This branch is even with home-assistant:next.
+@dmulcahey
+@cgarwood
+dmulcahey and cgarwood Update ZHA docs for quirks mode flag (home-assistant#7808)  …
+Latest commit 96ad26d  10 hours ago
+Type	Name	Latest commit message	Commit time
+.github	Update some h-a.io/developers links directly to developers.h-a.io (ho…	2 months ago
+.themes/classic	Fixed typos (home-assistant#6623)	2 months ago
+_deploy @ 69146ec	Update github edit link	2 years ago
+plugins	Fixed typos (home-assistant#6623)	2 months ago
+sass	Upgrade Jekyll (home-assistant#7795)	2 days ago
+source	Update ZHA docs for quirks mode flag (home-assistant#7808)	10 hours ago
+.editorconfig	Add EditorConfig file for Ruby files	7 years ago
+.gitattributes	Added .gitattributes file to keep CRLF's out of the codebase.	6 years ago
+.gitignore	Support for Insteon Hub Version 1 (home-assistant#6211)	3 months ago
+.gitmodules	Update deploy to point at master	2 years ago
+.powrc	Adding .powrc to allow RVM to work when POW is updated to version 0.4…	7 years ago
+.project	Abode Cloud Push and new components (home-assistant#3224)	a year ago
+.ruby-version	Update the used Ruby version	9 months ago
+.slugignore	added slugignore to help with heroku deployment	7 years ago
+.travis.yml	Add travis_wait	a year ago
+CLA.md	Add Governance blog post, docs, update footer with Creative Commons l…	2 years ago
+CODE_OF_CONDUCT.md	white_check_mark Various markdown, spelling, and grammar fixes (home-assistant#4503)	11 months ago
+Gemfile	Upgrade Jekyll (home-assistant#7795)	2 days ago
+Gemfile.lock	Upgrade Jekyll (home-assistant#7795)	2 days ago
+LICENSE.md	Add Governance blog post, docs, update footer with Creative Commons l…	2 years ago
+README.markdown	fixed shield for krihelimeter (home-assistant#6925)	2 months ago
+Rakefile	Expanded rake isolate to cover components (home-assistant#5349)	7 months ago
+_config.yml	Release 84.1	3 days ago
+config.rb	Fix http generated images path when using Compass sprites	6 years ago
+config.ru	More fixes	3 years ago
+w800rf32.png	W800rf32 (home-assistant#7373)	a month ago
+ README.markdown
+Discord Travis branch Krihelimeter License: CC BY-NC-SA 4.0
+
+Home Assistant website
+This is the source for the Home-Assistant.io website.
+
+Setup
+Setting up to contribute to documentation and the process for submitting pull requests is explained in the developer documentation.
+
+Site preview
+In order to make the preview available on http://127.0.0.1:4000, use the command as follows:
+
+bundle exec rake preview
+Speeding up site generation
+Every release we post long changelogs to the website. This slows down generation of the website significantly! We include some tools to temporarily exclude the blog posts that you're not working on out of the way.
+
+bundle exec rake isolate[filename-of-blogpost]
+When you're done working on the site, run the following command to move the posts back again:
+
+bundle exec rake integrate
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
