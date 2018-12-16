@@ -1,6 +1,131 @@
-
-Skip to content
+# Skip to content
  
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 1 oscarg933/assemblyai-webrtc-wrapper
+forked from AssemblyAI/assemblyai-webrtc-wrapper
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+A WebRTC wrapper to stream audio from the browser for Speech-to-Text
+ 12 commits
+ 1 branch
+ 0 releases
+ 2 contributors
+ JavaScript 100.0%
+ Pull request   Compare This branch is 1 commit ahead of AssemblyAI:master.
+@oscarg933
+oscarg933 Create .travis.yml
+Latest commit 7306326  34 minutes ago
+Type	Name	Latest commit message	Commit time
+lib	removed redundant AudioBufferToWav.js script	5 months ago
+.gitignore	init	5 months ago
+.travis.yml	Create .travis.yml	34 minutes ago
+README.md	added voice activation detection featuer to AssemblyAI.startRecording…	5 months ago
+assembly-ai.js	fixed stale buffer issue on firefox browser	5 months ago
+ README.md
+AssemblyAI WebRTC Wrapper
+The AssemblyAI wrapper provides an easy to use interface to stream audio from the browser to the AssemblyAI API for near real-time speech-to-text. For a complete sample project, check out the AssemblyAI Sample WebRTC Project.
+
+Getting started
+Clone this repo
+
+Copy or link the cloned repo to your web project's public script folder Example: /js folder
+
+Include the AssemblyAI javascript file in your HTML document
+
+<script src="public-script-folder/assembly-ai.js"></script>
+Usage
+var assemblyai = new AssemblyAI("your-secret-api-token");
+Create an AssemblyAI instance with your API token.
+
+Start recording
+
+assemblyai.startRecording([autoStop, transcriptionCallback, uiCallback])
+Begin recording audio stream from browser.
+
+Optional parameters:
+
+autoStop: true | false Auto-detect when user is done speaking and stops recording. Requires transcriptionCallback parameter if true.
+
+transcriptionCallback: Function to handle result of transcription operation. For example:
+
+assemblyai.startRecording(true, function(response){
+    console.log(response.text);
+    console.log(response.confidence);
+    console.log(response.id)
+});
+Required if autoStop is true.
+
+uiCallback: Function to handle any UI operations immediately after recording stops:
+
+assemblyai.startRecording(true, transcriptionCallback, function(){
+    /* Code to update UI immediately after recording stops */
+
+    // Change text of record button back from "Recording" to "Record"
+    var button = document.getElementById("record-button");
+    button.innerText("Record");
+});
+Cancel recording
+
+assemblyai.cancelRecording()
+Cancel audio stream being recorded.
+
+Stop recording
+
+assemblyai.stopRecording(callback)
+Stop audio stream being recorded. Recorded audio is sent to the AssemblyAI API for transcription.
+
+callback: Function to handle result of transcription operation. For example:
+
+assemblyai.stopRecording(function(response){
+    console.log(response.text);
+    console.log(response.confidence);
+    console.log(response.id)
+});
+The response argument passed to your callback function will be the following response object returned from the AssemblyAI API:
+
+Example response object:
+{
+  status: 'completed',
+  model_id: 'None',
+  confidence: '0.9',
+  created: '2018-06-25 05:14:28.361123',
+  text: 'the weather is nice today',
+  id: 5
+}
+More details can be found in the full AssemblyAI Documentation.
+
+Save recording
+
+assemblyai.saveRecording()
+Save the recorded audio stream to disk in audio/wav format.
+
+Sample project
+For a complete sample project, check out the AssemblyAI Sample WebRTC Project.
+
+Note
+The wrapper utilizes WebRTC to capture audio from the browser. WebRTC requires web projects to be hosted on localhost or an SSL secured domain.
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details. 
 Search or jump to…
 
 Pull requests
