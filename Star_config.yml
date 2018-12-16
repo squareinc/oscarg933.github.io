@@ -1,0 +1,130 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 2 oscarg933/Starry
+forked from cp3hnu/Starry
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Group, manage and read your starred repositories on GitHub.
+ 24 commits
+ 1 branch
+ 0 releases
+ 1 contributor
+ Swift 99.1%	 JavaScript 0.9%
+ Pull request   Compare This branch is even with cp3hnu:master.
+WeiZhao
+WeiZhao public
+Latest commit 6e9f0b1  on Oct 10
+Type	Name	Latest commit message	Commit time
+GitMyStar-Mac	public	2 months ago
+GitMyStar.xcodeproj	public	2 months ago
+GitMyStar	public	2 months ago
+Resources	public	2 months ago
+Shared	public	2 months ago
+.gitignore	public	2 months ago
+Cartfile	public	2 months ago
+Cartfile.resolved	public	2 months ago
+README.md	public	2 months ago
+ README.md
+Starry
+Group, manage and read your starred repositories on GitHub.
+
+You might have a problem like that you want to find a repository from hundreds of your starred repositories on GitHub, and you forget the name, owner, and description of the repository. To find it, you need to traverse all of your starred repositories. This is very troublesome.
+
+But by grouping your starred repositories, you can easily find it. The more detailed the group is, the easier it is to find it. Also, if you have multiple devices (iPhone, iPad and Mac), you want to see these groups on all of your devices at the same time. This is the purpose of Starry.
+
+Starry has the following features.
+
+Group you starred repositories on github
+
+Synchronize your groups to all of your iPhone, iPad and Mac
+
+Language groups based on the languages of repositories
+
+Caching documents and images of repositories
+
+Read repositories. You can adjust the font size of repository document in read mode
+
+Search starred repositories via the name, owner, and description of repository
+
+Sort starred repositories by the starred date, star count of repository, repository name and update date of repository
+
+Unstar repositories
+
+Handoff
+
+Spotlight Search (iOS)
+
+​
+
+Screenshot
+Mac
+
+
+iPhone
+
+
+iPad
+
+
+Video
+Starry Video for Mac
+
+Video is too large, you need to download first.
+
+Little known details
+Mac
+Delete group: cmd + delete
+Rename group: Select a group then click the left mouse button or click the return key
+Copy repository to a group: Hold down the option key and drag repository to a group
+Reverse order: Click the same button at the top of the middle column twice
+Index starred repositories: Click the third button at the top of the middle column, then click alphabet key
+Back or Forward in repository document page: Click the right mouse button
+Cancel refreshing starred repositories from GitHub: Click the rotating refresh button
+iPhone and iPad
+Sort starred repositories: In repository list page, pull down. Continue to pull down to change sort type or switch ascending or descending order
+Back or Forward in repository document page: Swipe from left edge to right or click the ← button to back to previous page. Swipe from right edge to left to next page
+Cancel refreshing starred repositories from GitHub: Click the rotating refresh button
+Third Party Libraries
+realm-cocoa
+
+Bricking
+
+Alamofire
+
+RxSwift
+
+ObjectMapper
+
+MBProgressHUD
+
+Kingfisher
+
+Do It Yourself
+
+
+First, create your app on GitHub and get the Client ID and Client Secret, then fill the clientID and clientSecret in Shared/Constant.swift
+
+Second, set up Realm Object Server, then fill the realmSyncHost in Shared/Constant.swift.
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
