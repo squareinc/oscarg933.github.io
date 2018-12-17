@@ -1,0 +1,100 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 9 oscarg933/hawaii
+forked from hawaii-desktop/hawaii
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+ house General issue tracking, manifest and wiki (http://hawaiios.org) http://hawaiios.org
+ 387 commits
+ 3 branches
+ 0 releases
+ 2 contributors
+ Io 100.0%
+ Pull request   Compare This branch is 1 commit ahead of hawaii-desktop:master.
+@oscarg933
+oscarg933 Create Oscarg933.Github.io
+Latest commit 4efb072  17 minutes ago
+Type	Name	Latest commit message	Commit time
+Https	Create Oscarg933.Github.io	17 minutes ago
+README.md	Update README.md	3 years ago
+_remote.xml	Use repo instead of git submodules	4 years ago
+default.xml	Add fluid	3 years ago
+ README.md
+Hawaii
+Join the chat at https://gitter.im/hawaii-desktop Stories in Ready IRC Network
+
+This repository contains the following material:
+
+Manifest files to build the desktop.
+General issue tracker.
+Wiki.
+Manifest
+Manifest files describe the project structure and is used by git-repo to fetch all the packages repositories.
+
+How to use it
+To prepare for cloning, perform the following procedure:
+
+Create ~/bin/ subdirectory, include it in PATH, and then switch to it by executing the following commands:
+mkdir ~/bin/
+PATH=~/bin:$PATH
+Download the repo script by executing the following command:
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+Change the attribute of repo to make it executable by executing the command:
+chmod a+x ~/bin/repo
+Create a new directory for Hawaii and then switch to it by executing the following commands:
+mkdir ~/hawaii
+cd ~/hawaii
+Clone latest sources
+To clone the latest source of all projects over SSH, perform the following procedure:
+
+Initialize the repository by executing one of the following commands, as appropriate.
+For developer access:
+
+repo init -u ssh://git@github.com/hawaii-desktop/hawaii.git
+For read-only access:
+
+repo init -u https://github.com/hawaii-desktop/hawaii.git
+Synchronize the repository by executing the following command:
+repo sync
+Get ready for development
+repo doesn't create local branches for you, hence you end up with a detached head that points to the last known good commit.
+
+Before you start developing make sure you have local branches:
+
+repo forall -c 'git checkout $REPO_RREV'
+Now set git to use the commit template that will help you write good commit messages:
+
+ROOTDIR=$(pwd) repo forall -c 'git config commit.template $ROOTDIR/misc/repotools/.commit-template'
+General issue tracker
+Click on the Issues tab and submit issues.
+
+Wiki
+Click on the Wiki tab, read and/or write new content.
+
+Alternatively you can clone the Wiki repository, work on your local system and push the changes back.
+
+Clone the repository with:
+
+git clone git@github.com:hawaii-desktop/hawaii.wiki.git
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
