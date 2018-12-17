@@ -1,0 +1,221 @@
+# Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @oscarg933 Sign out
+You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit.
+Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions.
+0
+0 3,428 oscarg933/brew
+forked from Homebrew/brew
+ Code  Pull requests 0  Projects 0  Insights  Settings
+ beer The missing package manager for macOS https://oscarg933.github.io.patch https://brew.sh
+ 17,501 commits
+ 1 branch
+ 110 releases
+ 634 contributors
+ BSD-2-Clause
+ Ruby 93.3%	 Roff 3.1%	 Shell 3.0%	 HTML 0.5%	 Dockerfile 0.1%	 Swift 0.0%
+ Pull request   Compare This branch is 2 commits ahead of Homebrew:master.
+@oscarg933
+oscarg933 Update README.md
+Latest commit 675b8b5  20 seconds ago
+Type	Name	Latest commit message	Commit time
+.github	Simplify usage instructions for the reproducible bug report GitHub is…	a month ago
+Library	Vendor concurrent-ruby-1.1.4.	13 hours ago
+bin	Revert "bin/brew: Pass CIRCLECI environment variable"	2 days ago
+completions	_brew | fix comments	4 days ago
+docs	Merge pull request Homebrew#5411 from MikeMcQuaid/bye-jcount	5 hours ago
+manpages	README: remove JCount.	14 hours ago
+.editorconfig	also apply .editorconfig to Markdown files	2 months ago
+.gitignore	RuboCop 0.60.0	a month ago
+.travis.yml	relocation_formulae: Poured bottles depend on gcc [Linux]	2 months ago
+.yardopts	Adjust comments to tidy API docs output.	2 months ago
+CHANGELOG.md	Point to GitHub Releases in CHANGELOG.md	2 years ago
+CODE_OF_CONDUCT.md	CODE_OF_CONDUCT: rename from CODEOFCONDUCT.	a year ago
+CONTRIBUTING.md	Various documentation edits	2 months ago
+Dockerfile	Add Dockerfile	2 months ago
+Dockerfile.test.yml	Add Dockerfile	2 months ago
+LICENSE.txt	license: remove copyright ending year	2 years ago
+README.md	Update README.md	19 seconds ago
+Veneno.ros.md	Create Veneno.ros.md	an hour ago
+azure-pipelines.yml	Generate Cobertura coverage data for Azure Pipelines	2 months ago
+ README.md
+Skip to content
+Search or jump to…
+
+Pull requests Issues Marketplace Explore @oscarg933 Sign out You are over your private repository plan limit (4 of 0). Please upgrade your plan, make private repositories public, or remove private repositories so that you are within your plan limit. Your private repositories have been locked until this is resolved. Thanks for understanding. You can contact support with any questions. 0 0 157 oscarg933/codezilla forked from Asiatik/codezilla Code Pull requests 0 Projects 0 Wiki Insights Settings zap codezilla zap One giant 🦖 collection of algorithms & design patterns. 126 commits 2 branches 0 releases 61 contributors MIT C++ 46.2%	Java 36.8%	Python 6.8%	JavaScript 2.6%	Shell 2.0%	C 1.9%	Other 3.7% Pull request Compare This branch is 2 commits ahead of Asiatik:master. @oscarg933 oscarg933 Update add-algorithm.md Latest commit 0d4cc87 10 minutes ago Type	Name	Latest commit message	Commit time .github	Update add-algorithm.md	10 minutes ago Data Structures	Fixes Asiatik#326 - Added documentation for linked lists (Asiatik#327)	2 months ago Dynamic Programming added code for best time to buy sell stock (Asiatik#136)	2 months ago Graphs	Add DFS in python (Asiatik#302)	2 months ago Greedy	Changed folder structure (Issue Asiatik#52) (Asiatik#53)	3 months ago Https	Create Codecov.io.patch	10 minutes ago JS Design Patterns	Changed folder structure (Issue Asiatik#52) (Asiatik#53)	3 months ago Java Design Patterns	feat(Abstract Factory): added new Implementation for Abstract Factory…	2 months ago Machine Learning Implemented gradient descent in C++ (Asiatik#352)	2 months ago Maths	Fix Asiatik#361: Add Fibonacci for C++ (Asiatik#362)	2 months ago Searching	Added Linear Search and Binary Search in Javascript	a month ago Sorting	Update InsertionSort.cpp (Asiatik#299)	2 months ago String Manipulation	Implemented KMP in C++ (Asiatik#332)	2 months ago .gitignore	Add .gitignore (Asiatik#155)	2 months ago CODE_OF_CONDUCT.md	Create CODE_OF_CONDUCT (Asiatik#55) 3 months ago CONTRIBUTING.md	updated runme.bh (Asiatik#254)	2 months ago Fibonacci_series.py	Fibonacci Series in python (Asiatik#346)	2 months ago LICENSE	Added Contributing.md (Issue 49) (Asiatik#50)	3 months ago LL.java Linked List Implementation (Asiatik#312)	2 months ago README.md	Update README.md	2 months ago heap in java	Create heap in java (Asiatik#189)	2 months ago runme.bh	updated runme.bh (Asiatik#254)	2 months ago README.md codezilla License: MIT Gitter
+
+codezilla 🦖 One giant collection of algorithms & design patterns.
+
+The pandora box of algorithms and data structures
+
+Feel free to contribute. Create an issue, let others know which algorithm/data structure you are planning to add. Fork the repo. And make a PR!
+
+The goal is to create a codebase for developers to access. Later we aim to develop extensions using this codebase to support multiple IDEs.
+
+How To Contribute to This Project Here are 3 quick and painless steps to contribute to this project:
+
+Star this repository to show your support for Asiatik
+
+Add a a program to implement an algorithm in any language. To do so, first create an issue with the task you are doing, for example: "Issue - creating bubble sort in C". Create a pull request in response to that issue and finally submit it for review.
+
+Name your branch Like #23 Add Bubble Sort in C.
+
+Also create a directory for any new algorithm if it doesn't exist. eg. observable_pattern, bubble_sort. Inside these directories you can create a folder for the programming language you want to add. And finally add your own file named program_name.language_extension (bubble_sort.cpp) Create a commit of the form - fixes #(issue_number)
+
+Make sure you adhere to the algorithm/language/file folder structure while adding code.
+
+Easiest way (Recommended) star -You can run bash runme.bh on your terminal to make the appropriate file structure
+
+Additionally we recommend using standard convention for your language such as indentation and variable naming while writing the algorithm. Useful comments will be a help. Finally, if you can write tests for you code, we urge you to do so.
+
+Finally, wait for it to be merged! Getting Started Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
+
+Clone your fork down to your local machine
+
+$ git clone https://github.com/Username/codezilla.git For e.g:-
+
+$ git clone https://github.com/Anujg935/codezilla.git in the above example Anujg935 is the username of the user who is forking the repository.
+
+Create a branch
+
+$ git checkout -b branch-name Make your changes
+
+Commit and Push
+
+$ git add filename $ git commit -m 'commit message' $ git push origin branch-name Create a New Pull Request from your forked repository (Click the New Pull Request button located at the top of your repo)
+
+Wait for your PR review and merge approval!
+
+Star this repository to show your support for Asiatik
+
+Don't forget to include the comments as seen above. Feel free to include additional information about the language you chose in your comments too! Like a link to a helpful introduction or tutorial.
+
+Reference Links Tutorial: Creating your first pull request
+
+Managing your Forked Repo
+
+Syncing a Fork
+
+Keep Your Fork Synced
+
+Awesome README examples Awesome
+
+Github-Flavored Markdown
+
+Additional References Added By Contributors GitHub license explained © 2018 GitHub, Inc. Terms Privacy Security Status Help Contact GitHub Pricing API Training Blog About Press h to open a hovercard with more details.
+
+Homebrew
+GitHub release
+
+Features, usage and installation instructions are summarised on the homepage. Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is explained here.
+
+What Packages Are Available?
+Type brew search for a list.
+Or visit formulae.brew.sh to browse packages online.
+Or use brew search --desc <keyword> to browse packages from the command line.
+More Documentation
+brew help, man brew or check our documentation.
+
+Troubleshooting
+First, please run brew update and brew doctor.
+
+Second, read the Troubleshooting Checklist.
+
+If you don't read these it will take us far longer to help you with your problem.
+
+Contributing
+Azure Pipelines Codecov
+
+We'd love you to contribute to Homebrew. First, please read our Contribution Guide and Code of Conduct.
+
+We explicitly welcome contributions from people who have never contributed to open-source before: we were all beginners once! We can help build on a partially working pull request with the aim of getting it merged. We are also actively seeking to diversify our contributors and especially welcome contributions from women from all backgrounds and people of colour.
+
+A good starting point for contributing is running brew audit --strict with some of the packages you use (e.g. brew audit --strict wget if you use wget) and then read through the warnings, try to fix them until brew audit --strict shows no results and submit a pull request. If no formulae you use have warnings you can run brew audit --strict without arguments to have it run on all packages and pick one.
+
+Alternatively, for something more substantial, check out one of the issues labeled help wanted in Homebrew/brew or Homebrew/homebrew-core.
+
+Good luck!
+
+Security
+Please report security issues to our HackerOne.
+
+Who Are You?
+Homebrew's lead maintainer is Mike McQuaid.
+
+Homebrew's project leadership committee is Mike McQuaid, Misty De Meo and Markus Reiter.
+
+Homebrew/brew's other current maintainers are Claudia, Michka Popoff, Shaun Jackman, Chongyu Zhu, Vitor Galvao, Misty De Meo, Gautham Goli, Markus Reiter, Steven Peters, Jonathan Chang and William Woodruff.
+
+Homebrew/brew's Linux support (and Linuxbrew) maintainers are Michka Popoff and Shaun Jackman.
+
+Homebrew/homebrew-core's other current maintainers are Claudia, Michka Popoff, Shaun Jackman, Chongyu Zhu, Izaak Beekman, Sean Molenaar, Jan Viljanen, Jason Tedor, Viktor Szakats, FX Coudert, Thierry Moisan, Steven Peters, Misty De Meo and Tom Schoonjans.
+
+Former maintainers with significant contributions include JCount, commitay, Dominyk Tiller, Tim Smith, Baptiste Fontaine, Xu Cheng, Martin Afanasjew, Brett Koonce, Charlie Sharpsteen, Jack Nagel, Adam Vandenberg, Andrew Janke, Alex Dunn, neutric, Tomasz Pajor, Uladzislau Shablinski, Alyssa Ross, ilovezfs and Homebrew's creator: Max Howell.
+
+Community
+discourse.brew.sh (forum)
+freenode.net#machomebrew (IRC)
+@MacHomebrew (Twitter)
+License
+Code is under the BSD 2-clause "Simplified" License. Documentation is under the Creative Commons Attribution license.
+
+Donations
+Homebrew is a non-profit project run entirely by unpaid volunteers. We need your funds to pay for software, hardware and hosting around continuous integration and future improvements to the project. Every donation will be spent on making Homebrew better for our users.
+
+Please consider a regular donation through Patreon:
+
+Donate with Patreon
+
+Alternatively, if you'd rather make a one-off payment:
+
+Donate with PayPal
+Donate by USA $ check from a USA bank:
+Make check payable to "Software Freedom Conservancy, Inc." and place "Directed donation: Homebrew" in the memo field. Checks should then be mailed to:
+Software Freedom Conservancy, Inc. 137 Montague ST STE 380 BROOKLYN, NY 11201 USA
+Donate by wire transfer: contact accounting@sfconservancy.org for wire transfer details.
+Homebrew is a member of the Software Freedom Conservancy which provides us with an ability to receive tax-deductible, Homebrew earmarked donations (and many other services). Software Freedom Conservancy, Inc. is a 501(c)(3) organization incorporated in New York, and donations made to it are fully tax-deductible to the extent permitted by law.
+
+Sponsors
+Our Xserve ESXi boxes for CI are hosted by MacStadium.
+
+Powered by MacStadium
+
+Our Jenkins CI installation is hosted by DigitalOcean.
+
+DigitalOcean
+
+Our physical hardware is hosted by Commsworld.
+
+Commsworld powered by Fluency
+
+Our bottles (binary packages) are hosted by Bintray.
+
+Downloads by Bintray
+
+Secure password storage and syncing is provided by 1Password for Teams by AgileBits.
+
+AgileBits
+
+Homebrew is a member of the Software Freedom Conservancy.
+
+Software Freedom Conservancy
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
