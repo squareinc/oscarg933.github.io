@@ -1,3 +1,4 @@
+# ec8a482edb37fa2cb3c5918ed74873741357ded6
 ---
 name: Bug report
 about: Create a report to help us improve
