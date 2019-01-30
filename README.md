@@ -40,7 +40,7 @@ Latest commit 3c9b35e  just now
 Type	Name	Latest commit message	Commit time
 .github/ISSUE_TEMPLATE	Update custom.md	22 days ago
 Assets	Moving icons to a separate Assets folder	11 months ago
-AutomatedLab.Common @ 4d09370	Added 'SetupDscPullServerSql.ps1'	2 months ago
+AutomatedLab.Common @ 4d09370	Added 'SetupDscPullServerSql.ps1'	2 months agohttps://github.com/oscarg933/oscarg933.github.io/edit/master/README.md
 AutomatedLab.Ships	Ships: Updated RootModule entry	8 months ago
 AutomatedLab	Fixing password handline	2 months ago
 AutomatedLabDefinition	AD Roles have new parameters: DatabasePath, LogPath, SysvolPath ad Ds…	2 months ago
